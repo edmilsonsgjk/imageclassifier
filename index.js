@@ -12,7 +12,7 @@ async function app() {
   const result = await net.classify(imgEl);
   console.log(result);
     
-  // Show predction and probability.
+  // Show prediction and probability.
   
   document.getElementById('console').innerText = `
       Prediction: ${result[0].className}\n
